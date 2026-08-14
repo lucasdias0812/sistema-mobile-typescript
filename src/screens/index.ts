@@ -4,7 +4,7 @@
 
 export { default as HomeScreen } from "./HomeScreen";
 export { default as ConsultasListScreen } from "./ConsultasListScreen";
-export { default as ConsultaDetalhesScreen } from "./ConsultasDetalhesScreen";
+export { default as ConsultaDetalhesScreen } from "./ConsultaDetalhesScreen";
 export { default as NovaConsultaScreen } from "./NovaConsultaScreen";
 export { default as LoginScreen } from "./Login";
 export { default as CadastroPacienteScreen } from "./CadastroPaciente";

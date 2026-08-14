@@ -1,15 +1,16 @@
-import { Medico } from "./medico";
-import { Paciente } from "../types/paciente";
-import { StatusConsulta } from "../types/statusConsulta";
-import { Especialidade } from "../types/especialidade";
+import { StatusConsulta, Especialidade } from "../types";
+
 export interface Consulta {
   id: number;
-  medico: Medico;
-  paciente: Paciente;
+  pacienteId: number;
+  pacienteNome: string;
+  medicoId: number;
+  medicoNome: string;
   especialidade: Especialidade;
-  usuarioId: number;
+  usuarioId: number; // ID do usuário que agendou a consulta
   data: string;
-  valor: number;
+  horario: string;
   status: StatusConsulta;
   observacoes?: string;
+  valor?: number;
 }
