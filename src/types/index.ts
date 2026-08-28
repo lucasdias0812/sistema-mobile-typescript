@@ -48,13 +48,11 @@ export type Consulta = {
   horario: string;
   status: StatusConsulta;
   observacoes?: string;
-  valor?: number;
-    /** Consulta gerada por gravidade de pressão arterial */
-    prioridade?: boolean;
-    emergencia?: boolean;
-    pressaoSistolica?: number;
-    pressaoDiastolica?: number;
-    //classificacaoPA?: ClassificacaoPA;
+  prioridade?: boolean;
+  emergencia?: boolean;
+  pressaoSistolica?: number;
+  pressaoDiastolica?: number;
+  classificacaoPA?: string;
 };
 
 // ===== TIPOS PARA FORMULÁRIOS =====
